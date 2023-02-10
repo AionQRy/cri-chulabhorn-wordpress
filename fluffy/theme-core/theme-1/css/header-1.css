@@ -1,0 +1,229 @@
+/*header*/
+.top-bar {
+    background: #df4425;
+    color: #FFF;
+}
+header.main-header.fixed {
+    position: fixed;
+    width: 100%;
+    background: #FFF;
+    top: -48px;
+    animation: fadeInDown .9s;
+
+}
+.size-box .button-size button,
+.box-color .button-color button {
+    color: #222;
+    font-weight: 600;
+    border: 0;
+    background: #FFF;
+    border-radius: 3px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 16px;
+}
+.size-box .box-size .button-size button.sizeOne {
+  font-size: 10px;
+}
+.size-box .box-size .button-size button.sizeTwo {
+  font-size: 12px;
+}
+.size-box .box-size .button-size button.sizeThree {
+  font-size: 15px;
+}
+
+.size-box .box-size .button-size button.active {
+  color: #df4425;
+}
+.size-box .box-size, .color-box .box-color {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.color-box button.btn-color.cbtn-2{
+  background-color: #000;
+  color: #FFF;
+}
+.color-box button.btn-color.cbtn-3{
+  background-color: #ff0;
+  color: #000;
+}
+
+.size-box .box-size .button-size,
+.color-box .box-color .button-color {
+    display: flex;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+.size-box .box-size .button-size .object-2 span {
+    background: #00716b;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 0;
+    font-size: 14px;
+    border: 2px solid #00716b;
+    transition: all ease-in-out 450ms;
+    cursor: pointer;
+}
+
+.color-box .box-color .button-color .btn-color span:hover {
+    border-color: #ddd;
+    color: #222;
+    background:#ddd;
+}
+.size-box .box-size .button-size .object-2 {
+    padding: 0px 5px;
+}
+.btn-size .span-btn {
+    display: flex;
+    cursor: pointer;
+    transition: all ease-in-out 450ms;
+}
+.btn-size .span-btn svg {
+    width: 16px;
+    height: 16px;
+    transform: scale(1);
+    transition: all ease-in-out 450ms;
+}
+.btn-size .span-btn:hover svg {
+    opacity: 1;
+    transform: scale(1.1);
+}
+.size-box .box-size .text-size span.text-span, .color-box .box-color .text-color span.text-span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+}
+.box-size .text-size {
+    display: flex;
+}
+
+.main-header .main-object,
+.main-header .mobile-object{
+    background: #FFF;
+    box-shadow: 0 3px 5px 1px rgb(0 0 0 / 8%);
+    width: 100%;
+}
+.main-header .main-object.fixed,
+.main-header .mobile-object.fixed {
+    animation: fadeInDown .9s;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+body.admin-bar .main-header .main-object.fixed,
+body.admin-bar .main-header .mobile-object.fixed {
+top: 32px;
+}
+.polylang_slink img {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    object-position: center;
+    image-rendering: -webkit-optimize-contrast;
+}
+.polylang_slink .wrap-img-flag {
+    width: 20px;
+    height: 19px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: solid 0.125em;
+}
+.polylang_slink a {
+    color: #FFF;
+    display: flex!important;
+    align-items: center;
+    gap: 10px;
+}
+.polylang_slink a:hover{
+  color: #eee;
+}
+.top-bar .main-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+.top-bar .main-top .right,
+.top-bar .main-top .left {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.top-bar .main-top .right > div{
+      position: relative;
+}
+.top-bar .main-top .left > div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.top-bar .main-top .left > div > svg {
+    height: 17px;
+    width: 17px;
+    background: #FFF;
+    fill: #df4425;
+    border-radius: 50px;
+    padding: 3px;
+}
+.top-bar .main-top .left > div::after,
+.top-bar .main-top .right > div::after {
+    content: "|";
+    color: #fff;
+    position: absolute;
+    right: -21px;
+    top: -4px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Open Sans;
+}
+.top-bar .main-top .left > div:last-child::after,
+.top-bar .main-top .right > div:last-child::after {
+display: none;
+}
+
+.top-bar p {
+    font-size: 14px;
+}
+/*for Mobile*/
+@media (max-width: 767px) {
+  #wpadminbar {
+    position: fixed;
+  }
+  body.admin-bar .main-header .main-object.fixed,
+  body.admin-bar .main-header .mobile-object.fixed {
+    top: 46px;
+  }
+}
+/* end for Mobile */
+
+/*for tabletV*/
+@media (min-width: 768px) and (max-width: 991px) {
+  body.admin-bar .main-header .main-object.fixed,
+  body.admin-bar .main-header .mobile-object.fixed {
+    top: 46px;
+  }
+}
+/* end for tabletV */
+
+/*for tabletH*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* end for tabletH */

@@ -1,0 +1,213 @@
+footer.footer-yp {
+    background-image: linear-gradient(360deg, #ec6f2e 24%, #ef6232 98%);
+}
+footer.footer-yp *{
+  color: #FFF;
+}
+.bottom-footer .main-bottom{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.bottom-footer .footer-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+}
+.bottom-footer .object-1 p {
+    text-transform: uppercase;
+}
+.main-footer {
+    font-size: 14px;
+}
+.main-footer .main-wrap {
+    display: flex;
+    gap: 20px;
+}
+.main-footer .main-wrap > div {
+    width: 33.33%;
+}
+.main-footer .main-wrap .object-address .image {
+    display: none;
+}
+.main-footer .main-wrap .object-address{
+  font-weight: 300;
+}
+.main-footer .main-wrap .object-address h3 {
+    font-weight: 400;
+    font-size: 19px;
+}
+.main-footer .main-wrap .object-address h4 {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footer-contact{
+  display: none;
+}
+#page .main-footer .menu-item a span {
+    display: inline-block;
+    background: #274698;
+    padding: 3px 10px 2px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.main-footer .main-wrap .object-address p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.main-footer {
+    padding: 50px 0;
+}
+.footer-menu .widget-title {
+    font-size: 17px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-footer .social-list {
+    margin: 50px 0;
+}
+#page .social-list ul {
+    display: flex;
+    gap: 20px;
+    margin: -5px;
+}
+.main-footer .social-list svg{
+  width: 20px;
+  height: 20px;
+}
+.main-footer .social-list svg {
+    width: 25px;
+    height: 25px;
+    fill: #FFF;
+}
+footer.footer-yp a {
+    font-weight: 400;
+}
+footer.footer-yp ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#page .main-footer .footer-menu a {
+    margin: 15px 0;
+    display: block;
+}
+.bottom-footer {
+    padding: 25px 20px;
+    border-top: solid 1px #ffffff36;
+}
+#page .main-footer a{
+    font-size: 15px;
+    font-weight: 300;
+}
+#page .main-footer a:hover,
+footer.footer-yp a:hover{
+  color: #eee;
+}
+.main-footer .social-list svg {
+    width: 25px;
+    height: 25px;
+    fill: #FFF;
+    stroke: none;
+}
+.main-footer .social-list .youtube svg polygon {
+    fill: #ec662f;
+}
+
+.footer-menu .widget-title svg {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*for Mobile*/
+@media (max-width: 767px) {
+  .footer-yp .widget_nav_menu ul {
+    display: none;
+  }
+  .footer-menu .widget-title svg {
+    display: block;
+  }
+  .main-footer {
+    padding: 50px 10px 5px;
+  }
+  .main-footer .main-wrap {
+    flex-wrap: wrap;
+}
+.main-footer .main-wrap > div {
+    width: 100%;
+}
+.main-footer .social-list {
+    margin: 20px -5px;
+}
+  .bottom-footer .footer-menu ul {
+        text-align: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.bottom-footer {
+    padding: 25px 15px;
+}
+.bottom-footer .main-bottom .object-1 {
+    border-top: solid 1px #ffffff36;
+    padding-top: 15px;
+    margin-bottom: -8px;
+    margin-top: 20px;
+}
+.bottom-footer .footer-menu li {
+    width: calc(50% - 10px);
+    padding: 0;
+    text-align: left;
+}
+    .bottom-footer .v-container{
+      padding: 0;
+    }
+    .bottom-footer .main-bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+/* end for Mobile */
+
+/*for tabletV*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-footer {
+    padding: 50px 15px;
+  }
+  .bottom-footer .footer-menu ul {
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.bottom-footer .footer-menu li {
+    width: calc(50% - 10px);
+    padding: 0;
+}
+    .bottom-footer .v-container{
+      padding: 0;
+    }
+  .bottom-footer .main-bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+/* end for tabletV */
+
+/*for tabletH*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* end for tabletH */

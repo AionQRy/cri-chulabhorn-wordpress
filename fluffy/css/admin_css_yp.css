@@ -1,0 +1,138 @@
+body.post-type-wpdmpro #plupload-upload-ui,
+body.post-type-wpdmpro #wpdm-attached-dir,
+body.post-type-wpdmpro #wpdm-additional-previews,
+body.post-type-wpdmpro #wpdm-activate-shop-info,
+body.post-type-wpdmpro #wpseo_meta,
+.plugin-update-tr .notice-error,
+#nsl-notices-fallback,
+body.post-type-wpdmpro #wp-content-wrap,
+body.post-type-wpdmpro #post-status-info,
+body.post-type-wpdmpro .w3eden .nav-tabs > li:last-child,
+body.post-type-wpdmpro .w3eden .nav-tabs > li:nth-child(2),
+/* body.post-type-wpdmpro #edit-slug-box, */
+body.post-type-wpdmpro #perfmatters,
+body.post-type-wpdmpro .w3eden .panel,
+body.post-type-wpdmpro #link_label_row,
+body.post-type-wpdmpro #cache_zip_row,
+body.post-type-wpdmpro #individual_file_download_row,
+body.post-type-wpdmpro #template_row,
+body.post-type-wpdmpro #page_template_row,
+.ac-search-enabled .ac-search select[name="poll_type"],
+body.post-type-banner_bottom .acf-field-61a75d5ff5003,
+div#yith-license-notice
+{
+  display: none!important;
+}
+body.post-type-poll .wps-field.select ,body.post-type-poll .wps-field.media,
+body.post-type-poll .wps-field.wp_editor,
+body.post-type-poll .wps-field.datepicker,
+body.post-type-poll .wps-field.image_select,
+body.post-type-poll #wpseo_meta
+{
+    display: none!important;
+}
+.acf-field.acf-field-repeater.acf-field-61a85991cbc60 img {
+    max-width: 70px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.error {
+	display: none;
+}
+.acf-ui-datepicker .ui-state-default, .acf-ui-datepicker .ui-widget-content .ui-state-default, .acf-ui-datepicker .ui-widget-header .ui-state-default {
+    border: 1px solid #0000!important;
+    background: #0000!important;
+    text-align: center;
+}
+.acf-ui-datepicker .ui-priority-primary, .acf-ui-datepicker .ui-widget-content .ui-priority-primary:hover {
+    color: #222;
+}
+.acf-ui-datepicker .ui-datepicker .ui-widget-header a {
+    background: #0000!important;
+}
+.acf-ui-datepicker.ui-widget .ui-datepicker-next:hover, .acf-ui-datepicker.ui-widget .ui-datepicker-prev:hover {
+    color: #000!important;
+    /* box-shadow: 0 0 7px -3px rgb(0 0 0 / 40%); */
+}
+.acf-ui-datepicker.ui-widget td a.ui-state-active, .acf-datepicker.ui-widget td a:hover,
+.acf-ui-datepicker .ui-widget-content a:hover {
+    color: #222!important;
+}
+/* .acf-ui-datepicker .ui-datepicker-next:before,
+.acf-ui-datepicker .ui-datepicker-prev:before {
+display: none!important;
+} */
+body.toplevel_page_theme-general-settings ul.acf-radio-list {
+    margin: 0 -10px;
+}
+body.toplevel_page_theme-general-settings ul.acf-radio-list li {
+    display: inline-block;
+    width: calc(25% - 20px);
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 44px;
+    font-weight: 600;
+}
+body.toplevel_page_theme-general-settings ul.acf-radio-list li label {
+    display: block;
+    border: solid 2px #ddd;
+}
+body.toplevel_page_theme-general-settings ul.acf-radio-list li label.selected{
+    border: solid 2px #01977e;
+}
+body.toplevel_page_theme-general-settings ul.acf-radio-list li label::before{
+  width: 100%;
+  height: 300px;
+  background-size: cover!important;
+  display: block;
+  content: '';
+  background-position: top center!important;
+}
+body.toplevel_page_theme-general-settings ul.acf-radio-list li input {
+    display: none;
+}
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(1) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/01-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(2) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/02-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(3) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/03-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(4) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/04-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(5) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/05-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(6) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/06-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(7) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/07-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(8) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/08-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(9) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/09-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(10) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/10-min.jpg);
+}
+
+body.toplevel_page_theme-general-settings ul.acf-radio-list li:nth-child(11) label:before {
+    background: url(/wp-content/themes/fluffy/img/theme/11-min.jpg);
+}

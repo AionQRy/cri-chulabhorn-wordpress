@@ -1,0 +1,254 @@
+{
+    "key": "group_60f018950a379",
+    "title": "Top Graphic Settings",
+    "fields": [
+        {
+            "key": "field_61e129179c84b",
+            "label": "ความเร็วในการเปลี่ยนภาพ (วินาที)",
+            "name": "banner_speed",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "กรุณาใส่เป็นวินาที เช่น 1",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60f01a4bb7f18",
+            "label": "Image Slider",
+            "name": "image_slider",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 1,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_619df3bc5c4b8",
+                    "label": "On\/Off",
+                    "name": "on_off",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "On",
+                    "ui_off_text": "Off",
+                    "parent_repeater": "field_60f01a4bb7f18"
+                },
+                {
+                    "key": "field_60f01a64b7f19",
+                    "label": "Image Desktop  (1920x800)",
+                    "name": "image_h",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "1920x800px",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_60f01a4bb7f18"
+                },
+                {
+                    "key": "field_63cd0079cfabf",
+                    "label": "Image Mobile  (1024x1024px)",
+                    "name": "image_m",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "1024x1024px",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_60f01a4bb7f18"
+                },
+                {
+                    "key": "field_63d14c3e58a57",
+                    "label": "Image Desktop EN (1920x800)",
+                    "name": "image_h_en",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "1920x800px",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_60f01a4bb7f18"
+                },
+                {
+                    "key": "field_63d14c4258a58",
+                    "label": "Image Mobile EN (1024x1024px)",
+                    "name": "image_m_en",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "1920x800px",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_60f01a4bb7f18"
+                },
+                {
+                    "key": "field_610a6ff930d1a",
+                    "label": "link",
+                    "name": "link",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate",
+                    "parent_repeater": "field_60f01a4bb7f18"
+                },
+                {
+                    "key": "field_619df3c75c4b9",
+                    "label": "Start",
+                    "name": "start_date",
+                    "aria-label": "",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "d\/m\/Y",
+                    "return_format": "Y\/m\/d",
+                    "first_day": 0,
+                    "parent_repeater": "field_60f01a4bb7f18"
+                },
+                {
+                    "key": "field_619df3d45c4ba",
+                    "label": "End",
+                    "name": "end_date",
+                    "aria-label": "",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "d\/m\/Y",
+                    "return_format": "Y\/m\/d",
+                    "first_day": 0,
+                    "parent_repeater": "field_60f01a4bb7f18"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-top-graphic"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1674661752
+}

@@ -1,0 +1,132 @@
+{
+    "key": "group_5e69ca423a499",
+    "title": "จัดการไฟล์ดาวน์โหลด",
+    "fields": [
+        {
+            "key": "field_5e69ca58efd38",
+            "label": "ไฟล์ดาวน์โหลด",
+            "name": "files_download",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "เพิ่มไฟล์",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_5e69ca83efd39",
+                    "label": "ไฟล์แนบ",
+                    "name": "file_download",
+                    "aria-label": "",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": 128,
+                    "mime_types": "png,jpg,gif,jpeg,pdf,xls,xlsx,doc,docx,zip,rar,ppt,pptx",
+                    "parent_repeater": "field_5e69ca58efd38"
+                },
+                {
+                    "key": "field_638f5268e3ac5",
+                    "label": "จำนวนดาวน์โหลด",
+                    "name": "file_download_count",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_5e69ca58efd38"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "vc_downloadmanager"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "vc_photos"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "vc_videos"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "mec-events"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "vc_ebook"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "vc_faqs"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1674561137
+}
