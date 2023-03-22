@@ -1,0 +1,27 @@
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev,
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next
+ {
+    background-image: none!important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+  display: none;
+}
+
+.vc_banner .swiper-button-prev,.vc_banner .swiper-button-next{
+    background-color: #fff!important;
+    box-shadow: 0 0 6px hsl(0deg 0% 0% / 9%);
+    border-radius: 50%;
+    width: 40px!important;
+    height: 40px!important;
+    text-align: center;
+}
+
+.vc_banner .swiper-button-prev svg,.vc_banner .swiper-button-next svg  {
+    padding: 0;
+}
+#flowpaper-logo-bottom {
+    display: none!important;
+}
+#carousel_home_banner .swiper-pagination {
+    bottom: 10px;
+}

@@ -1,0 +1,126 @@
+.post-tab-v3 .head-tab {
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 30px;
+}
+.vc_post_tab_v3 .wrap-loop{
+  display: flex;
+}
+.post-tab-v3 .head-tab > div{
+  width: 100%;
+}
+.post-tab-v3 .post_excerpt{
+  display: none;
+}
+.post-tab-v3 .head-tab .vc-view-more {
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+    font-weight: 400;
+    bottom: 0;
+    color: #FFF;
+    background: #df4425;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.post-tab-v3 .head-tab .vc-view-more:hover{
+  background: #FFF;
+  color: #df4425;
+}
+.vc_posts-wrapper.vc_post_tab_v3 {
+    display: flex;
+    gap: 20px;
+}
+
+#page .post-tab-v3 article{
+  padding: 6px!important;
+}
+.post-tab-v3 .nav-sub-term-yp ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.post-tab-v3 .nav-sub-term-yp li {
+    cursor: pointer;
+    color: #294599;
+    background: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+.post-tab-v3 .card-recent_post .post-info {
+    margin-top: 0;
+}
+.post-tab-v3 .read-more svg {
+    stroke: #df4425;
+}
+.post-tab-v3 .nav-sub-term-yp li.active{
+  background: #294599;
+  color: #FFF;
+}
+.post-tab-v3 .p-title h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.vc_post_tab_v3{
+  display: flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.vc_post_tab_v3 article {
+    width: calc(25% - 8px);
+}
+/*for Mobile*/
+@media (max-width: 767px) {
+.vc_post_tab_v3 article{
+    width: 100%;
+}
+
+.vc_posts-wrapper.vc_post_tab_v3 {
+    flex-wrap: wrap;
+}
+
+  .post-tab-v3 .head-tab .vc-view-more {
+    top: 10px;
+    bottom: auto;
+    padding: 7px 17px;
+    position: relative;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  .post-tab-v3 .nav-sub-term-yp ul{
+    flex-wrap: wrap;
+    margin-top: -10px;
+  }
+
+}
+
+/*for tabletV*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .vc_post_tab_v3 article {
+      width: calc(50% - 8px);
+  }
+
+.vc_posts-wrapper.vc_post_tab_v3 {
+    flex-wrap: wrap;
+}
+
+
+
+  .post-tab-v3 .head-tab .vc-view-more {
+    top: 10px;
+    bottom: auto;
+    padding: 7px 17px;
+  }
+  .post-tab-v3 .nav-sub-term-yp ul{
+    overflow-x: scroll;
+
+  }
+}

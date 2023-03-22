@@ -1,0 +1,63 @@
+.procurement-wrap.style-1-v1 .all-btn {
+    text-align: right;
+    padding-top: 20px;
+    display: block;
+}
+.procurement-wrap.style-1-v1 .post_date {
+    margin-right: 0;
+    color: #666;
+    float: none;
+}
+.procurement-wrap.style-1-v1 .post-header {
+    width: 2%;
+}
+.procurement-wrap.style-1-v1 .post-info {
+    width: 70%;
+    padding-left: 15px;
+}
+.procurement-wrap.style-1-v1 .entry-meta {
+    width: 28%;
+    text-align: right;
+}
+.procurement-wrap.style-1-v1 .post-header:after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    display: flex;
+    margin-top: 15px;
+}
+.procurement-wrap.style-1-v1 .procurement-title {
+    display: flex;
+    justify-content: space-between;
+    background: #005;
+    color: #FFF;
+    padding: 5px 15px;
+}
+.procurement-wrap.style-1-v1 .post-info a {
+    font-size: 19px;
+    line-height: 21px;
+    color: #222;
+    font-weight: 400;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.procurement-wrap.style-1-v1 .post-info a:hover{
+  color: #275D3B;
+}
+.procurement-wrap.style-1-v1 h3 {
+    font-weight: 600;
+    color: #FFF;
+    margin: 0;
+    line-height: 42px;
+    margin-bottom: 25px;
+}
+.procurement-wrap.style-1-v1 article {
+    padding: 0;
+    border: 0;
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin: 0;
+}

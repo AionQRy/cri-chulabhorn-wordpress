@@ -1,0 +1,30 @@
+.vc_post_download_list .download-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.vc_post_download_list .download-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vc_post_download_list .download-list .vitem-download-list {
+    width: calc(50% - 8px);
+}
+
+.vc_post_download_list .wrap-view-all {
+    text-align: center;
+    margin: 20px 0;
+}
+.vc_post_download_list .p-title {
+    text-align: center;
+    margin: 0 0 32px;
+}
+.vc_post_download_list .p-title h3{
+  font-size: 42px;
+  font-weight: 600;
+  color: #000;
+}

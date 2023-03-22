@@ -1,0 +1,45 @@
+.v-post_carousel .post_excerpt{
+  display: none;
+}
+.vc_post_carousel {
+    position: static;
+    margin-bottom: 30px;
+}
+.v-post_carousel .head-tab .vc-view-more {
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFF;
+    background: #df4425;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.v-post_carousel .head-tab .vc-view-more:hover {
+    color: #df4425;
+}
+.v-post_carousel .head-tab {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.v-post_carousel .vc-view-more:before{
+  background: #FFF;
+}
+.v-post_carousel .head-tab h3 {
+    font-weight: 600;
+}
+.v-post_carousel .card-post_m h4 a {
+    min-height: 70px;
+}
+.v-post_carousel .swiper-pagination {
+    bottom: -10px!important;
+}
+.v-post_carousel .swiper-pagination-bullet{
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+.v-post_carousel .swiper-pagination-bullet-active{
+  background: #209af0;
+  width: 28px;
+  border-radius: 5px;
+}
